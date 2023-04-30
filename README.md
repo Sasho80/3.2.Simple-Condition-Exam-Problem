@@ -1,4 +1,4 @@
-Problem: Transportation Price
+01.Problem: Transportation Price
 A student has to travel n kilometers. He can choose between three types of transportation:
 • Taxi. Starting fee: 0.70 EUR. Day rate: 0.79 EUR/km. Night rate: 0.90 EUR/km.
 • Bus. Day / Night rate: 0.09 EUR/km. Can be used for distances of minimum 20 km.
