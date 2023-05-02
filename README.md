@@ -76,7 +76,7 @@ o On the second line print the difference from the norm in the format:
 Sample Input and Output
 Input  Output                                   Input Output 
 20     Tom sleeps well                          113   Tom will run away
-       95 hours and 25 minutes less for play          3 hours and 47 minutes for play   
+       95 hours and 25 minutes less for play          3 hours and 47 minutes more for play   
 
 
 
