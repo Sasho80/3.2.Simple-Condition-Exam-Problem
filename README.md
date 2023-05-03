@@ -78,5 +78,40 @@ Input  Output                                   Input Output
 20     Tom sleeps well                          113   Tom will run away
        95 hours and 25 minutes less for play          3 hours and 47 minutes more for play   
 
+04.Problem: Harvest
+In a vineyard with area X square meters, 40% of the harvest goes for wine production. Y kilograms of 
+grapes are extracted from 1 m2
+ vineyard. 2,5 kg of grapes are needed for 1 liter of wine. The wanted 
+quantity of wine for sale is Z liters.
+Write a program that calculates how much wine can be produced and whether that quantity is enough.
+If it is enough, the rest is divided between the vineyard workers equally.
+Input Data
+The input data is read from the console and consists of exactly 4 lines:
+• First line: X m2
+ is the vineyard – an integer in the range of [10 … 5000].
+• Second line: Y grapes for one m2
+ – an integer in the range of [0.00 … 10.00].
+• Third line: Z needed liters of wine – an integer in the range of [10 … 600].
+142 Programming Basics with C#
+• Fourth line: number of workers – an integer in the range of [1 … 20].
+Output Data
+The following has to be printed on the console:
+• If the produced wine is less than the needed quantity:
+o “It will be a tough winter! More {insufficient wine} liters wine needed.”
+* The result has to be rounded down to the nearest integer.
+• If the produced wine is more than the needed quantity:
+o “Good harvest this year! Total wine: {total wine} liters.”
+* The result has to be rounded down to the nearest integer.
+o “{Wine left} liters left -> {wine for one worker} liters per person.”
+* Both of the results have to be rounded up to the higher integer.
+Sample Input and Output
+Input Output                                   Input Output 
+ 650  Good harvest this year! Total wine:      1020  It will be a tough winter! More
+ 2    208 liters.                              1.5   180 liters wine needed.
+ 175  33 liters left -> 11 liters per person.  425
+ 3                                             4
+
+
+
 
 
