@@ -130,10 +130,10 @@ o "Yes!{the hours left} hours left.".
 • If the time is NOT enough:
 o "Not enough time!{additional hours} hours needed.".
 Sample Input and Output
-Input  Output        Input Output 
-90     Yes!2 hours   99    Not enough time!
-7      left.         3     72 hours needed.
-3                    1
+Input  Output          Input Output 
+90     Yes!99 hours    99    Not enough time!
+7      left.           3     72 hours needed.
+3                      1
 
 
 
