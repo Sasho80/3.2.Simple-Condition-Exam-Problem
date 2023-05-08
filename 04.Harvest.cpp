@@ -14,7 +14,7 @@ int main() {
 	double wine = harvestPerWine/2.5;
 	if (wine>=neededLiters){
 		double totalWine = floor(wine);
-		double litersLeft = ceil(totalWine-neededLiters);
+		double litersLeft = ceil(wine-neededLiters);
 		double literPerPerson = ceil(litersLeft/(double)workers);
 		cout << "Good harvest this year! Total wine: " <<
 			totalWine << " liters." << endl;
